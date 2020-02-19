@@ -22,4 +22,7 @@ jQuery(function($) {
       });
     });
   });
+  $(window).resize(function() {
+    ulDim = currentUl.offset();
+  });
 });
