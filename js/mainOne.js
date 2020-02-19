@@ -11,7 +11,7 @@ jQuery(function($) {
         transform: "scaleX(1)",
         transformOrigin: "left",
         left: x.left + 16 - ulDim.left,
-        width: $(this).width() * 0.5
+        width: $(this).width() * 0.4
       });
     });
     $(this).mouseleave(function() {
